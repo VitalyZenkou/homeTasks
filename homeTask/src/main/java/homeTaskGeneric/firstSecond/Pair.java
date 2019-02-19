@@ -1,6 +1,6 @@
 package homeTaskGeneric.firstSecond;
 
-public class Pair<E extends Comparable> {
+public class Pair<E extends Comparable<E>> {
 
     private final E firstElement;
     private final E secondElement;
